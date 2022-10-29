@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Biodata diri</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <!-- Slide start -->
+    <div class="slider">
+        <div class="slides">
+            <!-- radio button start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- radio button end-->
+
+            <!-- slide images start -->
+            <!-- Content 1 -->
+            <div class="slide first">
+                <div class="main">
+                    <div class="img1"></div>
+                    <h1>RAHMAT ABDUL RAHMAN</h1>
+                    <div class="text">201410140</div>
+                    <p>Hi, Selamat datang di Halaman website saya. Saya berasal dari Ds.Betung, mempunyai hobi berenang, 
+                        dan bercita-cita menjadi entrepreneur seperti Elon Musk. Jika ingin mengetahui lebih tentang saya, 
+                        bisa kunjungi laman medsos dibawah ini</p>
+                    <ul>
+                        <li><a href="https://facebook.com/doxku.hagaku.7"><img src="fb.png" width="25 px"
+                                    height="25px"></a></li>
+                        <li><a href="https://instagram.com/sayarannn_"><img src="ig.png" width="25 px"
+                                    height="25px"></a></li>
+                        <li><a href="https://wa.me/6285788266681"><img src="wa.png" width="25 px" height="25px"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Content 2 -->
+            <div class="slide">
+                <div class="main">
+                    <div class="img2"></div>
+                    <h1>M ZAKY RAMADHANI</h1>
+                    <div class="text">2014101096</div>
+                    <p>Hi, Selamat datang di Halaman website saya. Alamat tinggal saya Banyuasin Ds.Timbul Jaya, saya
+                        mempunyai hobi adventure.
+                        Jika anda ingin mengenal saya lebih jauh, bisa kalian kunjungi laman medsos dibawah ini</p>
+                    <ul>
+                        <li><a href="https://facebook.com/M_Zaky_Ramdhani"><img src="fb.png" width="25 px"
+                                    height="25px"></a></li>
+                        <li><a href="https://instagram.com/ramadhani_m07"><img src="ig.png" width="25 px"
+                                    height="25px"></a></li>
+                        <li><a href="https://wa.me/6282279806890"><img src="wa.png" width="25 px" height="25px"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Content 3 -->
+            <div class="slide">
+                <div class="main">
+                    <div class="img3"></div>
+                    <h1>BOGY DHARMA SANDI</h1>
+                    <div class="text">201410145</div>
+                    <p>Hi, Selamat datang di Halaman website saya. Alamat tinggal saya Lorong jaya indah 14 Ulu
+                        , saya mempunyai hobi futsal. Jika anda ingin mengenal saya lebih jauh, bisa kalian kunjungi
+                        laman medsos dibawah ini</p>
+                    <ul>
+                        <li><a href="#"><img src="fb.png" width="25 px" height="25px"></a></li>
+                        <li><a href="https://instagram.com/bogylh_kenantan"><img src="ig.png" width="25 px"
+                                    height="25px"></a></li>
+                        <li><a href="https://wa.me/6281279345430"><img src="wa.png" width="25 px" height="25px"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Content 4 -->
+            <div class="slide">
+                <div class="main">
+                    <div class="img4"></div>
+                    <h1>HABIB APANDI</h1>
+                    <div class="text">201410059</div>
+                    <p>Hi, Selamat datang di Halaman website saya. Alamat tinggal saya desa nusa makmur kecamatan air kumbang kabupaten banyuasin
+                        , saya mempunyai hobi bermain game. Jika anda ingin mengenal saya lebih jauh, bisa kalian kunjungi
+                        laman medsos dibawah ini</p>
+                    <ul>
+                        <li><a href="#"><img src="fb.png" width="25 px" height="25px"></a></li>
+                        <li><a href="https://instagram.com/habibafandi___"><img src="ig.png" width="25 px"
+                                    height="25px"></a></li>
+                        <li><a href="https://wa.me/6282178455786"><img src="wa.png" width="25 px" height="25px"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- slides image end -->
+            <!-- automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- automatic navigation end -->
+        </div>
+        <!-- manual navigation start -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!-- manual navigation end -->
+    </div>
+    <!-- slide end -->
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+    
+</body>
+</html>
